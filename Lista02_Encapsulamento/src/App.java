@@ -24,6 +24,7 @@ public class App {
         c2.transferir(c1, 1800);
         System.out.println("Titular " + c1.getTitular() + " - saldo R$" + c1.getSaldo());
         System.out.println("Titular " + c2.getTitular() + " - saldo R$" + c2.getSaldo());
+        entrada.close();
     }
 
     public static void main(String[] args) {
@@ -31,3 +32,4 @@ public class App {
     }
 
 }
+
