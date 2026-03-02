@@ -390,7 +390,7 @@ public class Tela extends javax.swing.JFrame {
             Funcionario f = supreme.procurarFuncionario(nome);
 
             if (f instanceof Programador) {
-                Programador p = (Programador) f; // Cast seguro
+                Programador p = (Programador) f;
                 p.incluirLinguagem(JOptionPane.showInputDialog(this, "Linguagem que deseja adicionar"));
                 JOptionPane.showMessageDialog(this, "Linguagem adicionada!");
             } else {
